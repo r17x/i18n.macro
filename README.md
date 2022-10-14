@@ -55,15 +55,76 @@
 
 ### Examples
 
+### t
+
+it will be translate a key in t literal text from source
+
+<table>
+<tr>
+<td>Input</td>
+<td>Output</td>
+</tr>
+<tr>
+<td>
+
+```javascript
+import { t } from "i18n.macro";
+const greeting = t`message`;
+```
+
+</td>
+
+<td>
+
+```javascript
+const greeting = "hello world";
+```
+
+</td>
+</tr>
+</table>
+
+### t
+
+it will be translate a key in t literal text from source
+
+<table>
+<tr>
+<td>Input</td>
+<td>Output</td>
+</tr>
+<tr>
+<td>
+
+```javascript
+import { t } from "i18n.macro";
+const greeting = t`message`;
+```
+
+</td>
+
+<td>
+
+```javascript
+const greeting = "hello world";
+```
+
+</td>
+</tr>
+</table>
+
 ## Contributors
 
 [\[Back to the Table of Contents\] ↑](#toc)
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
